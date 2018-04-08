@@ -1,0 +1,11 @@
+#headline {
+    position: relative; 
+    width: 60vw;
+    float: left; 
+}
+
+#notes {
+    position: relative; 
+    width: 30vw; 
+    float: right; 
+}
