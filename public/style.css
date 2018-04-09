@@ -1,7 +1,18 @@
+/* TODO style page */
+
+* {
+    text-align: center; 
+}
+
 #headline {
     position: relative; 
     width: 60vw;
     float: left; 
+    border: solid black 1px; 
+}
+
+p:hover {
+    font-size: 1.25rem;
 }
 
 #notes {
@@ -9,3 +20,4 @@
     width: 30vw; 
     float: right; 
 }
+

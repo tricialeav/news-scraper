@@ -21,7 +21,7 @@ app.get("/scrape", function (req, res) {
       result.link = $(this)
         .find("a")
         .attr("href");
-      // The articles are not being updated on page load. TODO run check to see if article has been loaded to db, and if not post. 
+      // The articles are not being updated on page load. TODO run check to see if article has been loaded to db, and if not, post. 
 
       db.Article.create(result)
         .then(function (dbArticle) {
