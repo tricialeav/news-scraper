@@ -12,7 +12,7 @@ $(document).ready(function () {
       })
         .then(function (data) {
           for (let i = 0; i < data.length; i++) {
-            $("#headline").append("<p data-id='" + data[i]._id + "'>" + data[i].headline + "<br><br>" + data[i].summary + "<br /></p>" + "<a href='https://www.bbc.com" + data[i].link + "' target='_blank'>https://www.bbc.com" + data[i].link);
+            $("#headline").append("<p data-id='" + data[i]._id + "'>" + data[i].headline + "<br><br>" + data[i].summary + "<br /></p>" + "<a href='https://www.bbc.com" + data[i].link + "' target='_blank'>https://www.bbc.com" + data[i].link + "<hr>");
           }
         });
     })
